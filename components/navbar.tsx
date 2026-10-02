@@ -30,7 +30,7 @@ export function Navbar() {
             <Building2 className="h-5 w-5" />
           </span>
           <span className="text-lg font-bold tracking-tight text-white">
-            20 DE NOVIEMBRE.
+            DEPARTAMENTO 20 DE NOVIEMBRE
           </span>
         </button>
 
