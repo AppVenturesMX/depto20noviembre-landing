@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: 'Departamento en 20 de Noviembre, Tijuana | $2,600,000 MXN — Bienes Raíces Hub',
   description:
     'Departamento de 70 m², 2 recámaras y cuarto de estudio en la colonia 20 de Noviembre, Tijuana. A 5 minutos de Plaza Río, la Garita San Ysidro y Otay. Agenda tu cita con el asesor.',
+  // Esta landing es una versión de campaña (ads, WhatsApp) de la misma
+  // propiedad que ya vive en
+  // bienesraiceshub.com/propiedad/departamento-20-de-noviembre. El
+  // canonical marca al Hub como la versión preferida para Google. Ver
+  // claude/estrategia-seo-google-oct-2026.md, sección 1.
+  alternates: {
+    canonical: 'https://www.bienesraiceshub.com/propiedad/departamento-20-de-noviembre',
+  },
   openGraph: {
     title: 'Departamento en 20 de Noviembre, Tijuana | $2,600,000 MXN',
     description:
