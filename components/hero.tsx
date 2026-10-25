@@ -129,7 +129,7 @@ export function Hero() {
               alt="Fachada del conjunto privado en la colonia 20 de Noviembre, Tijuana"
               className="aspect-[4/3] w-full object-cover"
             />
-            <PhotoWatermark />
+            <PhotoWatermark variant="full" />
           </div>
         </motion.div>
       </div>
